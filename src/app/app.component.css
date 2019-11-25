@@ -1,0 +1,58 @@
+.container
+{
+    padding: 0;
+    margin: 0;
+    width: 100% !important;
+}
+@media (min-width: 1200px){
+    .container
+{
+    padding: 0;
+    margin: 0;
+    width: 100% !important;
+}   
+}
+.row
+{
+    width: 100%;
+}
+.tab
+{
+    background: transparent;
+    color: black;
+}
+button:active,button:focus{
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.btn{
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.header-sty
+{
+    background: navy;
+    border: none;
+    color: white;
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height: 44px;
+    margin-bottom: 3%;
+}
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    margin-left: 16px;
+}
+.container-fluid
+{
+    padding: 0;
+    margin: 0;
+}
+.col-md-9
+{
+    padding: 0;
+    margin: 0;
+}

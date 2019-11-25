@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'vppoc';
+  activeTab = 'claim';
+
+  claim(activeTab){
+    this.activeTab = activeTab;
+  }
+
+  patient(activeTab){
+    this.activeTab = activeTab;
+  }
+  health(activeTab){
+    this.activeTab = activeTab;
+  }
 }
